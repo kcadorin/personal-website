@@ -1,0 +1,46 @@
+/* Custom CSS to improve avatar aspect ratio - Make it larger and better proportioned */
+
+/* Target all rounded circle images */
+.rounded-circle {
+    object-fit: cover !important;
+    object-position: center top !important;
+    width: 180px !important;
+    height: 180px !important;
+    aspect-ratio: 1/1 !important;
+}
+
+/* More specific targeting for author image */
+img[alt="Author Image"] {
+    object-fit: cover !important;
+    object-position: center top !important;
+    width: 180px !important;
+    height: 180px !important;
+    border-radius: 50% !important;
+    max-width: none !important;
+}
+
+/* Target the container to prevent squishing */
+.container .content.text-center {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+}
+
+/* Ensure proper sizing on mobile */
+@media (max-width: 768px) {
+    .rounded-circle,
+    img[alt="Author Image"] {
+        width: 150px !important;
+        height: 150px !important;
+    }
+}
+
+/* Force override any theme styles */
+img[src*="kaleby"] {
+    object-fit: cover !important;
+    object-position: center top !important;
+    width: 180px !important;
+    height: 180px !important;
+    border-radius: 50% !important;
+    transform: none !important;
+}

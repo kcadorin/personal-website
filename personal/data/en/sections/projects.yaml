@@ -1,0 +1,59 @@
+section:
+  name: Projects
+  id: projects
+  enable: true
+  weight: 6
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+buttons:
+  - name: All
+    filter: "all"
+  - name: Professional
+    filter: "professional"
+  - name: Academic
+    filter: "academic"
+  - name: Hobby
+    filter: "hobby"
+
+projects:
+  - name: OneSource MCP Server
+    logo: /images/sections/projects/kubernetes.png
+    role: Developer
+    timeline: "Jun 2024 - Present"
+    repo: https://github.com/kaleby/onesource-mcp
+    summary: Model Context Protocol server for blockchain portfolio analysis and wallet management.
+    tags: ["professional", "typescript", "blockchain"]
+
+  - name: Personal Portfolio Website
+    logo: /images/sections/projects/toha.png
+    role: Owner
+    timeline: "Dec 2024 - Present"
+    repo: https://github.com/kaleby/personal-website
+    summary: A modern, responsive personal portfolio website built with Hugo and the Toha theme.
+    tags: ["hobby", "hugo", "web"]
+
+  - name: E-Commerce Platform
+    logo: /images/sections/projects/react.png
+    role: Lead Developer
+    timeline: "Jan 2023 - Dec 2023"
+    repo: https://github.com/kaleby/ecommerce-platform
+    summary: Full-stack e-commerce platform built with React, Node.js, and PostgreSQL.
+    tags: ["professional", "react", "nodejs"]
+
+  - name: Machine Learning Project
+    logo: /images/sections/projects/tensorflow.png
+    role: Researcher
+    timeline: "Sep 2022 - May 2023"
+    repo: https://github.com/kaleby/ml-research
+    summary: Research project on predictive analytics using machine learning algorithms.
+    tags: ["academic", "python", "machine-learning"]
+
+  - name: Task Management App
+    logo: /images/sections/projects/javascript.png
+    role: Developer
+    timeline: "Mar 2022 - Aug 2022"
+    repo: https://github.com/kaleby/task-manager
+    summary: A collaborative task management application with real-time updates.
+    tags: ["hobby", "javascript", "websocket"]

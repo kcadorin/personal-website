@@ -1,0 +1,41 @@
+section:
+  name: Skills
+  id: skills
+  enable: true
+  weight: 3
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+skills:
+  - name: JavaScript
+    summary: "Capable of building modern web applications using vanilla JavaScript and various frameworks."
+    url: "https://developer.mozilla.org/en-US/docs/Web/JavaScript"
+
+  - name: React
+    summary: "Building scalable single-page applications and user interfaces with React."
+    url: "https://reactjs.org/"
+
+  - name: Node.js
+    summary: "Server-side development with Node.js, building APIs and web services."
+    url: "https://nodejs.org/"
+
+  - name: Python
+    summary: "Using Python for backend development, automation, and data analysis."
+    url: "https://www.python.org/"
+
+  - name: Docker
+    summary: "Containerizing applications and managing development environments."
+    url: "https://www.docker.com/"
+
+  - name: Kubernetes
+    summary: "Orchestrating containerized applications and managing cloud-native infrastructure."
+    url: "https://kubernetes.io/"
+
+  - name: Git
+    summary: "Experienced with git-based development workflow and collaboration."
+    url: "https://git-scm.com/"
+
+  - name: Linux
+    summary: "Comfortable with Linux systems administration and command line tools."
+    url: "https://www.linux.org/"

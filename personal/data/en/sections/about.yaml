@@ -1,0 +1,39 @@
+section:
+  name: About
+  id: about
+  enable: true
+  weight: 2
+  showOnNavbar: true
+  template: sections/about.html
+
+designation: DevOps Engineer
+
+
+summary: |
+  I am a passionate DevOps engineer with years of working experience. I love building tools and applications that solve real-world problems. 
+  
+  In my free time, I enjoy contributing to open source projects, learning new technologies, and sharing knowledge through writing and speaking.
+
+socialLinks:
+  - name: Email
+    icon: "fas fa-envelope"
+    url: "kaleby@gmail.com"
+
+  - name: Github
+    icon: "fab fa-github"
+    url: "https://www.github.com/kcadorin"
+
+resourceLinks:
+  - title: "My Resume"
+    url: "files/resume.pdf"
+
+badges:
+  - type: certification
+    name: "Certified Kubernetes Application Developer"
+    url: "https://www.cncf.io/certification/ckad/"
+    badge: "https://images.credly.com/size/680x680/images/cc8adc83-1dc6-4d57-8e20-22171247e052/blob"
+
+  - type: certification
+    name: "Certified Kubernetes Administrator"
+    url: "https://www.cncf.io/certification/cka/"
+    badge: "https://images.credly.com/images/8b8ed108-e77d-4396-ac59-2504583b9d54/cka_from_cncfsite__281_29.png"

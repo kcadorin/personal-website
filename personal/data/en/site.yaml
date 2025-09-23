@@ -1,0 +1,19 @@
+# Copyright Notice
+copyright: © 2025 Copyright.
+
+# Meta description for your site.  This will help the search engines to find your site.
+description: "Kaleby's personal portfolio website showcasing software engineering projects and skills."
+
+# specify the list of custom menus that you want to show in the top navbar.
+# they will be separated by a divider from the main menus.
+customMenus:
+  - name: "Notes"
+    url: "/notes"
+
+# Specify OpenGraph Headers
+openGraph:
+  title: Kaleby Cadorin - DevOps Engineer
+  type: website
+  description: Personal portfolio of Kaleby, a passionate DevOps engineer
+  image: images/author/kaleby.png
+  url: https://kaleby.github.io

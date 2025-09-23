@@ -1,0 +1,57 @@
+section:
+  name: Education
+  id: education
+  enable: true
+  weight: 5
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+degrees:
+  - name: B.Sc. in Computer Science
+    icon: fa-university
+    timeframe: 2015-2019
+    institution:
+      name: University Name
+      url: "https://university.edu"
+      location: City, State
+    grade:
+      scale: GPA
+      achieved: 3.8
+      outOf: 4.0
+    publications:
+      - title: "Research Paper on Machine Learning Applications"
+        url: "https://example.com/paper1"
+      - title: "Study on Web Application Security"
+        url: "https://example.com/paper2"
+    courses:
+      - "Data Structures and Algorithms"
+      - "Database Systems"
+      - "Software Engineering"
+      - "Computer Networks"
+      - "Machine Learning"
+      - "Web Development"
+    extracurricularActivities:
+      - "President of Computer Science Club"
+      - "Organized tech events and hackathons"
+      - "Volunteer tutor for underclassmen"
+    thesis:
+      title: "Building Scalable Web Applications with Modern Technologies"
+      supervisor: "Dr. Professor Name"
+      abstract: "This thesis explores the development of scalable web applications using modern frameworks and cloud technologies."
+
+  - name: High School Diploma
+    icon: fa-graduation-cap
+    timeframe: 2011-2015
+    institution:
+      name: High School Name
+      url: "https://highschool.edu"
+      location: City, State
+    grade:
+      scale: GPA
+      achieved: 3.9
+      outOf: 4.0
+    extracurricularActivities:
+      - "Math Team Captain"
+      - "Science Olympiad Participant"
+      - "Volunteer at local community center"

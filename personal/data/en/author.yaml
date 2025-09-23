@@ -1,0 +1,20 @@
+name: "Kaleby Cadorin"
+image: "images/author/kaleby.png"
+designation: "DevOps Engineer"
+company: ""
+resume: "files/resume.pdf"
+contactInfo:
+  email: "kaleby@gmail.com"
+  phone: "+5551995535966"
+  github: "kcadorin"
+
+summary:
+  - "I am a passionate software engineer with experience in modern web technologies."
+  - "I enjoy creating elegant solutions to complex problems and contributing to open source projects."
+
+softSkills:
+  - "Leadership"
+  - "Team Work"
+  - "Hard Working"
+  - "Fast Learner"
+  - "Problem Solver"

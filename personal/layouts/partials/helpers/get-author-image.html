@@ -1,0 +1,41 @@
+{{ $author:= site.Data.author }}
+{{ if (index site.Data site.Language.Lang).author }}
+  {{ $author = (index site.Data site.Language.Lang).author }}
+{{ end }}
+
+{{/* default author image */}}
+{{ $authorImage:= "/images/default-avatar.png" }}
+{{ if $author.image }}
+  {{ $authorImage = $author.image }}
+{{ end }}
+
+{{/* if author image is provided in author's data, then use that */}}
+{{ if eq (printf "%T" .Params.author ) "maps.Params" }}
+    {{ with .Params.author }}
+        {{ if .image }}
+            {{ $authorImage = .image }}
+        {{ end }}
+    {{ end }}
+{{ end }}
+
+{{/* apply image processing. don't use "Fit" in svg or gif because its not supported */}}
+{{ $authorImage:= resources.Get $authorImage}}
+
+{{/* Prefer Fill to preserve aspect by cropping center/top for portraits */}}
+{{ if and $authorImage (and (ne $authorImage.MediaType.SubType "svg") ( ne $authorImage.MediaType.SubType "gif")) }}
+  {{/* Crop to a larger, crisp square then let CSS size it down */}}
+  {{ $processed := $authorImage.Fill "300x300 center" }}
+  {{ if $processed }}
+    {{ $authorImage = $processed }}
+  {{ else }}
+    {{ $altProcessed := $authorImage.Fill "300x300 Top" }}
+    {{ if $altProcessed }}
+      {{ $authorImage = $altProcessed }}
+    {{ else }}
+      {{ $authorImage = $authorImage.Fit "300x300" }}
+    {{ end }}
+  {{ end }}
+{{ end }}
+
+{{/*  return the author image link  */}}
+{{ return $authorImage.RelPermalink }}

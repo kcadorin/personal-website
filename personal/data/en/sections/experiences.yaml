@@ -1,0 +1,55 @@
+section:
+  name: Experiences
+  id: experiences
+  enable: true
+  weight: 4
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+experiences:
+  - company:
+      name: Current Company
+      url: "https://example.com"
+      location: Remote
+      overview: A technology company focused on building innovative solutions.
+    positions:
+      - designation: Senior Software Engineer
+        start: Jan 2022
+        # don't provide end date if you are currently working there. It will be replaced by "Present"
+        # end: Dec 2020
+        responsibilities:
+          - Design and develop scalable web applications
+          - Lead development team and mentor junior developers
+          - Implement CI/CD pipelines and DevOps practices
+          - Collaborate with product team to deliver user-focused features
+
+  - company:
+      name: Previous Company
+      url: "https://example2.com"
+      location: San Francisco, CA
+      overview: A startup focused on fintech solutions.
+    positions:
+      - designation: Software Engineer
+        start: Jun 2020
+        end: Dec 2021
+        responsibilities:
+          - Developed and maintained backend APIs using Node.js
+          - Built responsive frontend applications with React
+          - Worked with databases and data modeling
+          - Participated in code reviews and agile development practices
+
+  - company:
+      name: Startup Company
+      url: "https://example3.com"
+      location: New York, NY
+      overview: An early-stage startup building mobile applications.
+    positions:
+      - designation: Junior Developer
+        start: Jan 2019
+        end: May 2020
+        responsibilities:
+          - Learned modern web development technologies
+          - Contributed to mobile app development
+          - Assisted with testing and debugging
+          - Participated in team meetings and planning sessions

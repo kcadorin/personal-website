@@ -1,0 +1,3 @@
+[submodule "personal/themes/toha"]
+	path = personal/themes/toha
+	url = git@github.com:hugo-toha/toha.git

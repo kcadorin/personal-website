@@ -1,0 +1,64 @@
+baseURL = 'https://kaleby.github.io/'
+languageCode = 'en-us'
+title = 'Kaleby - Personal Portfolio'
+theme = 'toha'
+
+# Manage languages
+# For any more details, you can check the theme documentation: https://toha-guides.netlify.app/posts/
+[languages]
+  [languages.en]
+    languageName = "English"
+    weight = 1
+
+[params]
+  # Background image of the landing page
+  background = "images/hero.jpg"
+  darkBackground = "images/hero.jpg"
+  
+  # Provide logos for your site. The inverted logo will be used in the initial
+  # transparent navbar and the main logo will be used in the non-transparent navbar.
+  [params.logo]
+    main = "images/theme-logo.png"
+    inverted = "images/theme-logo.png"
+    favicon = "images/favicon.png"
+
+  # GitHub repo of your site
+  gitRepo = "https://github.com/kaleby/personal-website"
+  
+  # Default accent color
+  accent = "blue"
+  
+  # Enable/disable TOC in post pages
+  toc = true
+
+  # Configure the home page sections
+  [params.home]
+    # Configure main sections
+    sections = ["banner", "about", "skills", "experiences", "education", "projects", "recent-posts", "accomplishments"]
+
+  # Configure Footer
+  [params.footer]
+    enable = true
+    
+  # Configure navbar
+  [params.navbar]
+    # Show/hide navigation menu
+    menus = true
+    # Enable smooth scroll for anchor links
+    smoothScroll = true
+
+  # Configure animations
+  [params.theme]
+    # Enable animations for better user experience
+    animate = true
+    # Enable smooth scrolling between sections
+    smoothScroll = true
+    
+  [params.style]
+    # Enable custom animations
+    enableAnimations = true
+
+# Add custom CSS properly
+[params.plugins]
+  [params.plugins.css]
+    link = ["css/custom.css"]

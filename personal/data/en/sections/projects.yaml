@@ -21,16 +21,16 @@ projects:
   - name: OneSource MCP Server
     logo: /images/sections/projects/kubernetes.png
     role: Developer
-    timeline: "Jun 2024 - Present"
-    repo: https://github.com/kaleby/onesource-mcp
+    timeline: "Jun 2025 - Present"
+    repo: https://github.com/kcadorin/onesource-mcp
     summary: Model Context Protocol server for blockchain portfolio analysis and wallet management.
     tags: ["professional", "typescript", "blockchain"]
 
   - name: Personal Portfolio Website
     logo: /images/sections/projects/toha.png
     role: Owner
-    timeline: "Dec 2024 - Present"
-    repo: https://github.com/kaleby/personal-website
+    timeline: "Sep 2025 - Present"
+    repo: https://github.com/kcadorin/personal-website
     summary: A modern, responsive personal portfolio website built with Hugo and the Toha theme.
     tags: ["hobby", "hugo", "web"]
 
@@ -38,7 +38,7 @@ projects:
     logo: /images/sections/projects/react.png
     role: Lead Developer
     timeline: "Jan 2023 - Dec 2023"
-    repo: https://github.com/kaleby/ecommerce-platform
+    repo: https://github.com/kcadorin/ecommerce-platform
     summary: Full-stack e-commerce platform built with React, Node.js, and PostgreSQL.
     tags: ["professional", "react", "nodejs"]
 
@@ -46,7 +46,7 @@ projects:
     logo: /images/sections/projects/tensorflow.png
     role: Researcher
     timeline: "Sep 2022 - May 2023"
-    repo: https://github.com/kaleby/ml-research
+    repo: https://github.com/kcadorin/ml-research
     summary: Research project on predictive analytics using machine learning algorithms.
     tags: ["academic", "python", "machine-learning"]
 
@@ -54,6 +54,6 @@ projects:
     logo: /images/sections/projects/javascript.png
     role: Developer
     timeline: "Mar 2022 - Aug 2022"
-    repo: https://github.com/kaleby/task-manager
+    repo: https://github.com/kcadorin/task-manager
     summary: A collaborative task management application with real-time updates.
     tags: ["hobby", "javascript", "websocket"]

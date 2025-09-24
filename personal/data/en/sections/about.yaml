@@ -14,6 +14,23 @@ summary: |
   
   In my free time, I enjoy contributing to open source projects, learning new technologies, and sharing knowledge through writing and speaking.
 
+softSkills:
+  - name: Problem Solving
+    percentage: 85
+    color: blue
+
+  - name: Leadership
+    percentage: 85
+    color: yellow
+
+  - name: Resilience
+    percentage: 95
+    color: green
+
+  - name: Fast Learner
+    percentage: 90
+    color: sky
+
 socialLinks:
   - name: Email
     icon: "fas fa-envelope"

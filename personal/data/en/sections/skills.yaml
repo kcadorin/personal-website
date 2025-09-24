@@ -8,10 +8,6 @@ section:
   # hideTitle: true
 
 skills:
-  - name: JavaScript
-    summary: "Capable of building modern web applications using vanilla JavaScript and various frameworks."
-    url: "https://developer.mozilla.org/en-US/docs/Web/JavaScript"
-
   - name: React
     summary: "Building scalable single-page applications and user interfaces with React."
     url: "https://reactjs.org/"
@@ -32,9 +28,32 @@ skills:
     summary: "Orchestrating containerized applications and managing cloud-native infrastructure."
     url: "https://kubernetes.io/"
 
-  - name: Git
-    summary: "Experienced with git-based development workflow and collaboration."
-    url: "https://git-scm.com/"
+  - name: Terraform
+    summary: "Infrastructure as Code with Terraform for cloud provisioning and automation."
+    url: "https://www.terraform.io/"
+
+  - name: Pulumi
+    summary: "IaC with Pulumi using programming languages to define cloud infrastructure."
+    url: "https://www.pulumi.com/"
+
+  - name: Cloud Computing
+    summary: "Worked with the most popular cloud providers such asAWS, GCP, Azure, etc."
+
+  - name: GitLab
+    summary: "Source code management and CI/CD pipelines with GitLab."
+    url: "https://about.gitlab.com/"
+
+  - name: GitHub Actions
+    summary: "Automating workflows and CI/CD with GitHub Actions."
+    url: "https://github.com/features/actions"
+
+  - name: Spinnaker
+    summary: "Multi-cloud continuous delivery with advanced deployment strategies."
+    url: "https://spinnaker.io/"
+
+  - name: Argo CD
+    summary: "GitOps continuous delivery for Kubernetes with Argo CD."
+    url: "https://argo-cd.readthedocs.io/"
 
   - name: Linux
     summary: "Comfortable with Linux systems administration and command line tools."

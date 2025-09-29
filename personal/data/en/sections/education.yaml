@@ -8,6 +8,30 @@ section:
   # hideTitle: true
 
 degrees:
+  - name: MBA in Information Technology Management
+    icon: fa-graduation-cap
+    timeframe: 2020-2021
+    institution:
+      name: Uniritter
+      url: "https://www.uniritter.edu.br/"
+      location: Porto Alegre, Rio Grande do Sul
+    grade:
+      scale: GPA
+      achieved: 8.79
+      outOf: 10
+
+  - name: Postgraduate in Information Security
+    icon: fa-graduation-cap
+    timeframe: 2010-2011
+    institution:
+      name: ULBRA - Universidade Luterana do Brasil
+      url: "https://ulbra.br/canoas"
+      location: Canoas, Rio Grande do Sul
+    grade:
+      scale: GPA
+      achieved: 3.9
+      outOf: 4.0
+
   - name: Technological Degree in Computer Networks
     icon: fa-university
     timeframe: 2005-2008
@@ -24,19 +48,4 @@ degrees:
       supervisor: "M.Sc. Leonardo Garcia de Mello"
       abstract: "This article analyzes Microsoft’s enterprise VoIP solution under the Unified Communications (UC) architecture. It outlines the components—such as Microsoft Office Communications Server 2007—and their interactions with other Microsoft systems. The solution integrates with IT infrastructure and existing telephony (including legacy PBX and PSTN) to deliver videoconferencing, audio conferencing, and instant messaging within Microsoft Office 2003 and 2007."
 
-  - name: High School Diploma
-    icon: fa-graduation-cap
-    timeframe: 2011-2015
-    institution:
-      name: High School Name
-      url: "https://highschool.edu"
-      location: City, State
-    grade:
-      scale: GPA
-      achieved: 3.9
-      outOf: 4.0
-    extracurricularActivities:
-      - "Math Team Captain"
-      - "Science Olympiad Participant"
-      - "Volunteer at local community center"
 

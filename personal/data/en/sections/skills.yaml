@@ -9,15 +9,15 @@ section:
 
 skills:
   - name: React
-    summary: "Building scalable single-page applications and user interfaces with React."
+    summary: "Building user interfaces for internal tools."
     url: "https://reactjs.org/"
 
   - name: Node.js
-    summary: "Server-side development with Node.js, building APIs and web services."
+    summary: "Building APIs and web services for internal tools."
     url: "https://nodejs.org/"
 
   - name: Python
-    summary: "Using Python for backend development, automation, and data analysis."
+    summary: "Using Python for backend development and automation."
     url: "https://www.python.org/"
 
   - name: Docker
@@ -33,7 +33,7 @@ skills:
     url: "https://www.terraform.io/"
 
   - name: Pulumi
-    summary: "IaC with Pulumi using programming languages to define cloud infrastructure."
+    summary: "IaC with Pulumi using typescript to define cloud infrastructure."
     url: "https://www.pulumi.com/"
 
   - name: Cloud Computing

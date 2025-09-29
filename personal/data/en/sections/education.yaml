@@ -8,37 +8,21 @@ section:
   # hideTitle: true
 
 degrees:
-  - name: B.Sc. in Computer Science
+  - name: Technological Degree in Computer Networks
     icon: fa-university
-    timeframe: 2015-2019
+    timeframe: 2005-2008
     institution:
-      name: University Name
-      url: "https://university.edu"
-      location: City, State
+      name: ULBRA - Universidade Luterana do Brasil
+      url: "https://ulbra.br/canoas"
+      location: Canoas, Rio Grande do Sul
     grade:
       scale: GPA
       achieved: 3.8
       outOf: 4.0
-    publications:
-      - title: "Research Paper on Machine Learning Applications"
-        url: "https://example.com/paper1"
-      - title: "Study on Web Application Security"
-        url: "https://example.com/paper2"
-    courses:
-      - "Data Structures and Algorithms"
-      - "Database Systems"
-      - "Software Engineering"
-      - "Computer Networks"
-      - "Machine Learning"
-      - "Web Development"
-    extracurricularActivities:
-      - "President of Computer Science Club"
-      - "Organized tech events and hackathons"
-      - "Volunteer tutor for underclassmen"
     thesis:
-      title: "Building Scalable Web Applications with Modern Technologies"
-      supervisor: "Dr. Professor Name"
-      abstract: "This thesis explores the development of scalable web applications using modern frameworks and cloud technologies."
+      title: "Analysis of the Microsoft Unified Communications (UC) architecture for VoIP"
+      supervisor: "M.Sc. Leonardo Garcia de Mello"
+      abstract: "This article analyzes Microsoft’s enterprise VoIP solution under the Unified Communications (UC) architecture. It outlines the components—such as Microsoft Office Communications Server 2007—and their interactions with other Microsoft systems. The solution integrates with IT infrastructure and existing telephony (including legacy PBX and PSTN) to deliver videoconferencing, audio conferencing, and instant messaging within Microsoft Office 2003 and 2007."
 
   - name: High School Diploma
     icon: fa-graduation-cap

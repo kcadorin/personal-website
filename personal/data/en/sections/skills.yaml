@@ -37,7 +37,7 @@ skills:
     url: "https://www.pulumi.com/"
 
   - name: Cloud Computing
-    summary: "Worked with the most popular cloud providers such asAWS, GCP, Azure, etc."
+    summary: "Worked with the most popular cloud providers such as AWS, GCP, Azure, etc."
 
   - name: GitLab
     summary: "Source code management and CI/CD pipelines with GitLab."

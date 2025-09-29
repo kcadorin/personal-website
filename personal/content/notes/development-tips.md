@@ -36,3 +36,4 @@ Here are some useful development tips I've gathered throughout my career:
 - Comment complex logic
 
 These practices have helped me become a better developer and team member.
+

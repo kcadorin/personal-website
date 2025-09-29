@@ -16,11 +16,11 @@ summary: |
 
 softSkills:
   - name: Problem Solving
-    percentage: 85
+    percentage: 98
     color: blue
 
   - name: Leadership
-    percentage: 85
+    percentage: 90
     color: yellow
 
   - name: Resilience
@@ -28,7 +28,7 @@ softSkills:
     color: green
 
   - name: Fast Learner
-    percentage: 90
+    percentage: 95
     color: sky
 
 socialLinks:

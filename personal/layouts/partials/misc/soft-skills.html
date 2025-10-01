@@ -1,0 +1,12 @@
+{{/* TODO: Delete this file in version v4+ */}}
+<div class="col-6 col-lg-4 p-2">
+  {{ $predefinedColor:= true}}
+  {{ if hasPrefix .color "#"}}
+    {{ $predefinedColor = false }}
+  {{ end }}
+
+  {{ $deg := mul .percentage 3.6 }}
+  <div class="circular-progress single {{if $predefinedColor}}{{ .color }}{{end}}" style="--progress-deg: {{ $deg }}deg; {{ if not $predefinedColor }}--progress-color: {{ .color }};{{ end }}">
+    <div class="circular-progress-value">{{ .name }}</div>
+  </div>
+</div>

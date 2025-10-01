@@ -1,7 +1,7 @@
 section:
   name: Accomplishments
   id: accomplishments
-  enable: true
+  enable: false
   weight: 7
   showOnNavbar: true
   # Can optionally hide the title in sections
@@ -39,4 +39,6 @@ accomplishments:
     courseOverview: Comprehensive machine learning course covering supervised, unsupervised, and reinforcement learning.
     certificate: https://example.com/certificate4
     timeline: "June 2022 - September 2022"
+
+
 

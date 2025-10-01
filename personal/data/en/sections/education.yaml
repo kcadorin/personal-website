@@ -29,8 +29,8 @@ degrees:
       location: Canoas, Rio Grande do Sul
     grade:
       scale: GPA
-      achieved: 3.9
-      outOf: 4.0
+      achieved: 8.89
+      outOf: 10
 
   - name: Technological Degree in Computer Networks
     icon: fa-university
@@ -41,8 +41,8 @@ degrees:
       location: Canoas, Rio Grande do Sul
     grade:
       scale: GPA
-      achieved: 3.8
-      outOf: 4.0
+      achieved: 8.00
+      outOf: 10
     thesis:
       title: "Analysis of the Microsoft Unified Communications (UC) architecture for VoIP"
       supervisor: "M.Sc. Leonardo Garcia de Mello"

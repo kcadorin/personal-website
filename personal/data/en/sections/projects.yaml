@@ -1,7 +1,7 @@
 section:
   name: Projects
   id: projects
-  enable: true
+  enable: false
   weight: 6
   showOnNavbar: true
   # Can optionally hide the title in sections
@@ -20,11 +20,11 @@ buttons:
 projects:
   - name: OneSource MCP Server
     logo: /images/sections/projects/kubernetes.png
-    role: Developer
+    role: Owner
     timeline: "Jun 2025 - Present"
     repo: https://github.com/kcadorin/onesource-mcp
     summary: Model Context Protocol server for blockchain portfolio analysis and wallet management.
-    tags: ["professional", "typescript", "blockchain"]
+    tags: ["web3", "typescript", "blockchain", "mcp", "ai"]
 
   - name: Personal Portfolio Website
     logo: /images/sections/projects/toha.png

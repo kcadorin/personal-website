@@ -20,15 +20,27 @@ softSkills:
     color: blue
 
   - name: Leadership
-    percentage: 90
+    percentage: 95
     color: yellow
 
   - name: Resilience
-    percentage: 95
+    percentage: 98
     color: green
 
   - name: Fast Learner
     percentage: 95
+    color: sky
+
+  - name: Adaptability
+    percentage: 98
+    color: orange
+
+  - name: Ownership
+    percentage: 95
+    color: pink
+  
+  - name: Collaboration
+    percentage: 98
     color: sky
 
 socialLinks:
@@ -40,9 +52,9 @@ socialLinks:
     icon: "fab fa-github"
     url: "https://www.github.com/kcadorin"
 
-resourceLinks:
-  - title: "My Resume"
-    url: "files/resume.pdf"
+# resourceLinks:
+#   - title: "My Resume"
+#     url: "files/resume.pdf"
 
 badges:
   - type: certification

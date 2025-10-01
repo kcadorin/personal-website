@@ -3,6 +3,11 @@ languageCode = 'en-us'
 title = 'Kaleby - Personal Portfolio'
 theme = 'toha'
 
+# Configure file caches for GitHub Pages
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
+
 # Manage languages
 # For any more details, you can check the theme documentation: https://toha-guides.netlify.app/posts/
 [languages]

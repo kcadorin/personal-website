@@ -27,7 +27,7 @@ theme = 'toha'
     # Logos disabled - showing site name only
     # main = "images/logo.png"
     # inverted = "images/logo.png"
-    favicon = "images/favicon.png"
+    favicon = "images/author/mario-favicon.png"
 
   # GitHub repo of your site
   gitRepo = "https://github.com/kaleby/personal-website"

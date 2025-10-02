@@ -2,6 +2,7 @@ baseURL = 'https://kaleby.com.br/'
 languageCode = 'en-us'
 title = 'Kaleby - Personal Portfolio'
 theme = 'toha'
+# Force favicon rebuild - 2025-10-02
 
 # Configure file caches for GitHub Pages
 [caches]

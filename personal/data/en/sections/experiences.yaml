@@ -9,122 +9,158 @@ section:
 
 experiences:
   - company:
-      name: Healthcare Platform (US)
-      overview: Digital health provider delivering secure care coordination and analytics.
+      name: Blockchain Data & Infrastructure Platform (US)
+      overview: Web3 infrastructure provider indexing on-chain data across multiple EVM-compatible networks.
+    positions:
+      - designation: Senior SRE / DevOps Engineer
+        start: Mar 2025
+        responsibilities:
+          - Designed and maintained the full AWS infrastructure using Terraform and Atlantis, managing EKS clusters, Aurora PostgreSQL, ElastiCache Redis, ECS Fargate, VPCs, ALBs, and Route 53 across dev, staging, and production environments.
+          - Operated multi-chain blockchain node infrastructure running full and archive nodes for Ethereum, Optimism, Arbitrum, Polygon, Avalanche, and Shape, with RPC proxying, automatic failover, and health monitoring via CloudWatch and Slack alerts.
+          - Built EKS cluster operations using ArgoCD for GitOps deployments, Karpenter for node autoscaling (spot and on-demand), and a full observability stack with Prometheus, Grafana, Loki, and Promtail.
+          - Contributed to a Go-based blockchain data indexing pipeline ingesting blocks, transactions, events, NFTs, balances, and smart contracts into OpenSearch, exposed via a GraphQL API.
+          - Developed Claude Code plugins and MCP servers to extend AI tooling for the team, including a blockchain data query tool and an AI agent (LangGraph) for natural language blockchain data queries.
+          - Implemented EKS cost optimization using spot instances, Karpenter node pools, and an automated EBS cleanup tool, alongside a Python-based cost analysis script achieving significant cloud spend reductions.
+          - Managed secrets, IAM, and Kubernetes security using External Secrets Operator, AWS ACK Pod Identity, and SOPS with KMS for secure and auditable access controls.
+
+  - company:
+      name: Healthcare Technology Platform (US)
+      overview: Digital health provider delivering secure care coordination and analytics solutions.
     positions:
       - designation: Senior DevOps Architect
+        start: Sep 2024
         responsibilities:
-          - Hardened multi-account AWS infrastructure with automated SOC 2 guardrails and monitoring.
-          - Built event-driven workflows with AWS Lambda to streamline operations and integrations.
-          - Administered AWS Transfer Family for encrypted partner data exchanges.
-          - Maintained GitHub Actions release pipelines for infrastructure and application deployments.
-          - Orchestrated data pipelines with Prefect to coordinate priority workloads.
+          - Built an internal security scanning platform (Python + frontend) that automatically checks all container images pushed to ECR for vulnerabilities, blocks CI/CD pipelines on critical CVEs, and allows developers to request time-limited exceptions through an approval workflow.
+          - Developed a self-service privileged access system providing evaporative (time-limited) credentials to databases and message brokers, with a frontend for session auditing, kill-switch capabilities, and permission configuration.
+          - Created a Kubernetes secrets management tool allowing teams to safely update secret values across environments without cluster access; changes flow through a queue consumed by environment-specific listeners, with masked values for production security.
+          - Built a production access request portal with multi-step approval workflow that auto-generates temporary credentials upon final approval.
+          - Implemented a disaster recovery architecture in Terraform enabling full service restoration from an AWS outage in under 30 minutes.
+          - Hardened multi-account AWS infrastructure with automated SOC 2 guardrails, monitoring, and bastion host access across all accounts.
+          - Orchestrated complex data pipelines with Prefect and built scheduled Lambda-based data bridges for automated database schema population.
 
   - company:
       name: Digital Commerce Platform (Canada)
       overview: Global discounts marketplace serving high-traffic consumer brands.
     positions:
       - designation: Sysadmin & DevOps Engineer
+        start: Aug 2023
+        end: Aug 2024
         responsibilities:
-          - Engineered beta and production IaC stacks on Google Cloud using Pulumi and TypeScript.
-          - Led migration of legacy workloads to GKE with load balancers, Cloud Armor, and managed SQL.
-          - Reduced infrastructure spend by 32% through preemptible nodes, policy tuning, and rightsizing.
-          - Containerized Node.js services to move from Cloud Functions to GKE, halving run costs.
-          - Migrated Pulumi state from cloud service to self-hosted backend for tighter governance.
-          - Directed daily operations for the DevOps team driving platform stability.
+          - Engineered beta and production IaC stacks on Google Cloud using Pulumi and TypeScript, covering load balancers, Cloud Armor, Cloud SQL, GCS buckets, and GKE cluster configurations.
+          - Led migration of legacy manually-deployed workloads to a fully IaC-managed design on GKE, eliminating configuration drift and enabling repeatable deployments.
+          - Reduced overall infrastructure costs by 32% through preemptible GKE nodes, Cloud Armor policy restructuring, and log resource rightsizing.
+          - Containerized a Node.js application to move from Cloud Functions to GKE, cutting compute costs by approximately 50%.
+          - Migrated Pulumi state management from the Pulumi cloud service to a self-hosted backend for tighter governance and cost control.
+          - Led the DevOps team, overseeing daily operations and driving platform stability initiatives.
 
   - company:
       name: Consulting Collective (US)
       overview: Advisory firm supporting venture-backed and enterprise engineering teams.
     positions:
       - designation: Senior DevOps Engineer (Part-time)
+        start: Jul 2023
+        end: Mar 2024
         responsibilities:
-          - Delivered reusable Terraform and Terragrunt blueprints to simplify infrastructure changes.
-          - Built CI/CD automations in GitHub Actions and CircleCI to accelerate partner delivery.
-          - Implemented AWS cost analytics via CUDOS dashboards and provided 50% savings roadmap.
-          - Rolled out Datadog observability and incident response playbooks for partner environments.
-          - Integrated Vanta-driven SOC 2 controls into AWS accounts to close audit gaps.
+          - Delivered reusable Terraform and Terragrunt blueprints, reducing code repetition and standardizing infrastructure patterns across partner teams.
+          - Built CI/CD pipelines in GitHub Actions and CircleCI accelerating software delivery and deployment cadence.
+          - Drove an AWS cost reduction initiative using CUDOS dashboards and a detailed savings roadmap, helping a partner cut overall cloud spend by 50% through RDS consolidation, reserved instance purchases, and backup optimization.
+          - Rolled out Datadog observability and alerting, improving incident detection and response for partner environments.
+          - Deployed Vanta-driven SOC 2 controls into AWS accounts and implemented EKS clusters with HPA and Karpenter for high-availability workloads.
 
   - company:
       name: Messaging Platform Provider (EU)
       overview: Business messaging platform serving global brands with high-volume APIs.
     positions:
       - designation: Senior SRE Engineer (Part-time)
+        start: Sep 2022
+        end: Feb 2023
         responsibilities:
-          - Operated GKE clusters with Helm-based deployments and environment hardening.
-          - Built Grafana dashboards and alerts to improve observability and incident response speed.
-          - Facilitated incident reviews and authored postmortem reports for critical events.
-          - Introduced Argo Workflows automation to streamline routine operational tasks.
-          - Ran performance and load testing to validate API reliability under peak traffic.
+          - Operated GKE clusters with Helm-based deployments, configuration management, and environment hardening.
+          - Built Grafana dashboards and alert rules for the API and Kubernetes cluster, increasing observability and reducing mean time to resolution.
+          - Led incident reviews and authored postmortem reports, establishing a structured response process for critical events.
+          - Introduced Argo Workflows automation to reduce manual toil for routine operational tasks.
+          - Designed and ran load and performance tests to validate API reliability and identify bottlenecks under peak traffic.
 
   - company:
       name: Fintech Scale-up (US)
       overview: Card and spend management platform for high-growth businesses.
     positions:
       - designation: Senior Infrastructure & Security Architect
+        start: Feb 2022
+        end: Aug 2023
         responsibilities:
-          - Architected DigitalOcean environments with Terraform and Terragrunt for core applications.
-          - Established the company-wide ISMS and authored security policies and awareness programs.
-          - Automated environment lifecycle management with GitHub Actions pipelines.
-          - Developed Python tooling to accelerate deployments and infrastructure automation.
-          - Led DevOps and information security teams to align delivery with compliance goals.
+          - Architected DigitalOcean environments using Terraform and Terragrunt for all core application workloads.
+          - Established the company-wide Information Security Management System (ISMS), authoring security policies and creating a full Security Awareness program with online lectures, marketing materials, and phishing simulations.
+          - Automated full environment lifecycle management (create, update, destroy) through GitHub Actions pipelines with Python deployment tooling.
+          - Led both the DevOps and Information Security teams, aligning delivery velocity with compliance and security goals.
 
   - company:
       name: Product Engineering Consultancy (Global)
-      overview: Distributed consultancy delivering enterprise web and cloud programs.
+      overview: Distributed consultancy delivering enterprise web and cloud programs across multiple industries.
     positions:
       - designation: Senior DevOps Engineer
+        start: Jul 2021
+        end: Oct 2023
         responsibilities:
-          - Led DevOps workstreams across multiple clients, from startups to public enterprises.
-          - Designed AWS ECS, ECR, and RDS architectures with Terraform and Terraform Cloud.
-          - Migrated DNS and infrastructure management to Route53-backed Terraform workflows.
-          - Executed large-scale repository migrations from SVN and self-hosted Git to Bitbucket Cloud.
-          - Replatformed GoCD pipelines onto AWS and automated server provisioning with Vagrant and Python.
-          - Delivered AWS lift-and-shift migrations combining VMware Cloud and native services.
+          - Led DevOps workstreams across multiple simultaneous client engagements spanning startups and large public enterprises.
+          - Designed AWS architectures using ECS, ECR, RDS, Bastion Host, ALB, CloudFront, and Route 53, fully managed with Terraform and Terraform Cloud.
+          - Built comprehensive CI/CD pipelines covering mobile (iOS, Android), unit tests, e2e tests, and API/app builds using GitHub Actions and CircleCI.
+          - Executed a 5-month AWS lift-and-shift migration combining VMware Cloud and cloud-native services for enterprise financial clients.
+          - Migrated a large SVN repository (55,000+ revisions) and self-hosted Git repositories to Bitbucket Cloud with mirroring for zero-disruption transitions.
+          - Replatformed a self-hosted GoCD server to AWS, restoring pipelines and automating server provisioning with Vagrant and Python.
+          - Implemented and managed EKS clusters across multiple clients with Karpenter node autoscaling, KEDA workload autoscaling, and HPA.
 
   - company:
       name: Technology Services Provider (LATAM)
-      overview: Nearshore engineering organization supporting regulated SaaS platforms.
+      overview: Nearshore engineering organization supporting regulated SaaS platforms across biopharma, medtech, and cybersecurity.
     positions:
       - designation: Senior DevOps Engineer
+        start: May 2020
+        end: May 2023
         responsibilities:
-          - Provisioned GCP infrastructure (GKE, BigQuery, Airflow) via Terraform and Terragrunt modules.
-          - Built CI/CD pipelines with GitLab and Jenkins to deliver microservices at scale.
-          - Automated tenant provisioning with Python tooling to orchestrate Terragrunt deployments.
-          - Authored 20+ Kubernetes training courses with 95% top-tier learner feedback.
-          - Mentored engineers and led technical interviews for DevOps, networking, and security roles.
+          - Provisioned GCP infrastructure (GKE, Redis, BigQuery, Airflow) via Terraform and Terragrunt for a global regulated IoT SaaS platform serving biopharma and medtech clients.
+          - Built CI/CD pipelines with GitLab and Jenkins delivering microservices to multi-tenant GCP environments, including a Python deployer script to orchestrate Terragrunt module pipelines.
+          - Created 20+ Kubernetes training courses covering topics from fundamentals through advanced security features, achieving over 95% five-star ratings from learners.
+          - Served as team mentor and lead, onboarding new members and maintaining high team performance.
+          - Conducted technical interviews for DevOps, networking, and information security candidates.
 
   - company:
       name: Aviation Operator (Brazil)
-      overview: National airport network overseeing governance, IT operations, and security.
+      overview: National airport network overseeing governance, IT operations, and security compliance across multiple airports.
     positions:
       - designation: Chief Information Security Officer
+        start: Dec 2017
+        end: Apr 2020
         responsibilities:
-          - Directed information security and governance for multiple airports and business units.
-          - Rolled out ISMS and ITSM programs, elevating service visibility and compliance adherence.
-          - Launched security awareness campaigns boosting incident reporting by 80%.
-          - Implemented auditing, IAM, and toolsets to meet regulatory and privacy obligations.
-          - Defined GCP IAM and SRE practices supporting airport digital operations.
+          - Directed information security and IT governance across multiple airports, acting as CISO, Governance Manager, and Privacy Committee Leader simultaneously.
+          - Implemented the ISMS and ITSM systems across both airports, alongside a security awareness program achieving 97% employee participation and an 80% increase in incident reporting rates.
+          - Implemented auditing across all environments enabling the compliance team to investigate ethics channel complaints; led rollout of IAM, PAM, antivirus, patch management, and vulnerability management toolsets.
+          - Acting as change manager, reduced the rate of IT-related maintenance incidents by 96%.
+          - Designed GCP IAM roles, RBAC for GKE, and defined site reliability engineering practices supporting airport digital operations.
 
   - company:
       name: Cloud Services Provider (Brazil)
-      overview: Managed services partner delivering infrastructure modernizations.
+      overview: Managed services partner delivering data center and infrastructure modernization projects.
     positions:
       - designation: Senior Security & Site Reliability Engineer
+        start: Jan 2016
+        end: Dec 2017
         responsibilities:
-          - Architected AWS environments with automation using Ansible, Terraform, and Jenkins.
-          - Migrated enterprises from on-premises stacks to AWS with resilient, scalable designs.
-          - Implemented Amazon CloudWatch monitoring and alerting to improve reliability.
-          - Created Bash and Python tooling to accelerate infrastructure automation tasks.
+          - Architected AWS environments for enterprise clients, implementing IAM, automation with Ansible and Terraform, and Jenkins-based pipelines.
+          - Migrated three clients from on-premises data centers to AWS, building scalable storage (S3, EBS), compute (EC2), and load-balanced application (ELB) architectures.
+          - Configured Amazon CloudWatch monitoring and alerting across all client environments to improve reliability and incident visibility.
+          - Created Bash and Python automation scripts for infrastructure tasks, reducing manual effort across the team.
 
   - company:
       name: Payment Processing Platform (Brazil)
-      overview: Financial services provider handling high-volume transaction processing.
+      overview: Financial services provider handling high-volume transaction processing and Central Bank connectivity.
     positions:
       - designation: Senior Security & Site Reliability Engineer
+        start: Oct 2013
+        end: Jan 2016
         responsibilities:
-          - Managed AWS and Azure infrastructure with a focus on security and availability.
-          - Ensured PCI-DSS compliance and Central Bank connectivity for payment operations.
-          - Led datacenter migration projects achieving zero downtime transitions.
-          - Automated backups, patching, and routines using Bash and Python scripts.
-          - Designed certificate management processes securing interbank communications.
+          - Managed AWS and Azure cloud infrastructure with strong emphasis on security, availability, and PCI-DSS compliance.
+          - Designed and maintained the certificate environment securing all communication between the company and Brazil's Central Bank.
+          - Ensured compliance with Brazil's Central Bank Resolution 4.658 on cybersecurity policy and cloud computing requirements.
+          - Led a datacenter migration to a new site with zero downtime, coordinating all infrastructure cutover activities.
+          - Automated backups, server updates, and recurring infrastructure routines using Bash and Python scripts.

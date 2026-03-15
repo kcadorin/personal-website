@@ -8,53 +8,89 @@ section:
   # hideTitle: true
 
 skills:
-  - name: React
-    summary: "Building user interfaces for internal tools."
-    url: "https://reactjs.org/"
-
-  - name: Node.js
-    summary: "Building APIs and web services for internal tools."
-    url: "https://nodejs.org/"
-
-  - name: Python
-    summary: "Using Python for backend development and automation."
-    url: "https://www.python.org/"
-
-  - name: Docker
-    summary: "Containerizing applications and managing development environments."
-    url: "https://www.docker.com/"
-
   - name: Kubernetes
-    summary: "Orchestrating containerized applications and managing cloud-native infrastructure."
+    summary: "Orchestrating containerized workloads at scale, including EKS and GKE clusters with Karpenter autoscaling, KEDA, HPA, ArgoCD GitOps, and Helm. Certified Kubernetes Administrator (CKA) and Application Developer (CKAD)."
     url: "https://kubernetes.io/"
 
   - name: Terraform
-    summary: "Infrastructure as Code with Terraform for cloud provisioning and automation."
+    summary: "Infrastructure as Code across AWS, GCP, and DigitalOcean environments, using Terraform and Terragrunt to manage multi-environment, multi-account cloud infrastructure with Atlantis for automation."
     url: "https://www.terraform.io/"
 
+  - name: AWS
+    summary: "Deep experience across EKS, ECS Fargate, RDS Aurora, ElastiCache, Lambda, ALB, Route 53, IAM, Secrets Manager, Transfer Family, CloudWatch, and more, across multi-account production environments."
+    url: "https://aws.amazon.com/"
+
+  - name: Docker
+    summary: "Containerizing applications for development, CI/CD, and production, with strong knowledge of image optimization, security scanning, and registry management."
+    url: "https://www.docker.com/"
+
+  - name: Python
+    summary: "Building internal platform tools, automation scripts, deployment tooling, data pipelines, and CLI utilities across multiple production environments."
+    url: "https://www.python.org/"
+
+  - name: Information Security
+    summary: "Hands-on experience implementing ISMS, SOC 2, PCI-DSS, ISO 27001, and NIST frameworks. Background includes CISO leadership, security awareness programs, PAM, vulnerability management, and compliance auditing."
+
   - name: Pulumi
-    summary: "IaC with Pulumi using typescript to define cloud infrastructure."
+    summary: "IaC with Pulumi and TypeScript to define and manage full Google Cloud architectures, including GKE, Cloud Armor, Cloud SQL, and GCS."
     url: "https://www.pulumi.com/"
 
-  - name: Cloud Computing
-    summary: "Worked with the most popular cloud providers such as AWS, GCP, Azure, etc."
+  - name: Observability
+    summary: "Building full observability stacks with Prometheus, Grafana, Loki, Promtail, and Datadog for metrics, logs, and alerting across Kubernetes and cloud environments."
+    url: "https://grafana.com/"
 
-  - name: GitLab
-    summary: "Source code management and CI/CD pipelines with GitLab."
-    url: "https://about.gitlab.com/"
+  - name: Argo CD
+    summary: "GitOps continuous delivery for Kubernetes using ArgoCD, managing application deployments across multiple clusters and environments."
+    url: "https://argo-cd.readthedocs.io/"
 
   - name: GitHub Actions
-    summary: "Automating workflows and CI/CD with GitHub Actions."
+    summary: "Building CI/CD pipelines for application builds, infrastructure automation, container image publishing, and multi-environment deployments."
     url: "https://github.com/features/actions"
+
+  - name: Ansible
+    summary: "Configuration management and infrastructure automation using Ansible for provisioning and server hardening."
+    url: "https://www.ansible.com/"
+
+  - name: GCP
+    summary: "Extensive experience with GKE, Cloud Armor, Cloud SQL, BigQuery, Airflow, GCS, IAM, and site reliability engineering for production workloads."
+    url: "https://cloud.google.com/"
+
+  - name: AI / LLM Tooling
+    summary: "Building MCP (Model Context Protocol) servers, Claude Code plugins, and LangGraph-based AI agents to extend developer tooling and automate workflows."
+    url: "https://www.anthropic.com/"
+
+  - name: Helm
+    summary: "Managing Kubernetes application deployments and configuration with Helm charts across multiple environments."
+    url: "https://helm.sh/"
+
+  - name: Blockchain / Web3
+    summary: "Operating full and archive nodes for Ethereum, Optimism, Arbitrum, Polygon, Avalanche, and Shape, with RPC proxying, failover, and indexing pipeline management."
+    url: "https://ethereum.org/"
+
+  - name: Linux
+    summary: "Deep Linux systems administration experience across server management, networking, shell scripting, and security hardening."
+    url: "https://www.linux.org/"
+
+  - name: CircleCI
+    summary: "Building CI/CD pipelines for mobile (iOS, Android), API, and infrastructure deployments with CircleCI."
+    url: "https://circleci.com/"
+
+  - name: React
+    summary: "Building frontends for internal platform tools, including security dashboards, access request portals, and secrets management UIs."
+    url: "https://reactjs.org/"
+
+  - name: Node.js
+    summary: "Building APIs and web services, containerizing Node.js applications and migrating them to Kubernetes for cost and scalability improvements."
+    url: "https://nodejs.org/"
+
+  - name: GitLab
+    summary: "Source code management and CI/CD pipelines with GitLab for microservice delivery across multi-tenant cloud environments."
+    url: "https://about.gitlab.com/"
+
+  - name: Jenkins
+    summary: "Building and managing CI/CD pipelines with Jenkins for infrastructure automation and application delivery."
+    url: "https://www.jenkins.io/"
 
   - name: Spinnaker
     summary: "Multi-cloud continuous delivery with advanced deployment strategies."
     url: "https://spinnaker.io/"
-
-  - name: Argo CD
-    summary: "GitOps continuous delivery for Kubernetes with Argo CD."
-    url: "https://argo-cd.readthedocs.io/"
-
-  - name: Linux
-    summary: "Comfortable with Linux systems administration and command line tools."
-    url: "https://www.linux.org/"

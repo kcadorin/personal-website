@@ -37,7 +37,7 @@ experiences:
           - Built EKS cluster operations using ArgoCD for GitOps deployments, Karpenter for node autoscaling (spot and on-demand), and a full observability stack with Prometheus, Grafana, Loki, and Promtail.
           - Contributed to a Go-based blockchain data indexing pipeline ingesting blocks, transactions, events, NFTs, balances, and smart contracts into OpenSearch, exposed via a GraphQL API.
           - Developed Claude Code plugins and MCP servers to extend AI tooling for the team, including a blockchain data query tool and an AI agent (LangGraph) for natural language blockchain data queries.
-          - Implemented EKS cost optimization using spot instances, Karpenter node pools, and an automated EBS cleanup tool, alongside a Python-based cost analysis script achieving significant cloud spend reductions.
+          - Cut monthly cloud spend with EKS cost optimization: spot instances, Karpenter node pools, an automated EBS cleanup tool, and a Python cost-analysis script.
           - Managed secrets, IAM, and Kubernetes security using External Secrets Operator, AWS ACK Pod Identity, and SOPS with KMS for secure and auditable access controls.
 
   - company:
@@ -68,7 +68,7 @@ experiences:
           - Built a production access request portal with multi-step approval workflow that auto-generates temporary credentials upon final approval.
           - Implemented a disaster recovery architecture in Terraform enabling full service restoration from an AWS outage in under 30 minutes.
           - Hardened multi-account AWS infrastructure with automated SOC 2 guardrails, monitoring, and bastion host access across all accounts.
-          - Orchestrated complex data pipelines with Prefect and built scheduled Lambda-based data bridges for automated database schema population.
+          - Orchestrated data pipelines with Prefect and built scheduled Lambda-based data bridges for automated database schema population.
 
   - company:
       name: Digital Commerce Platform (Canada)
@@ -79,11 +79,11 @@ experiences:
         end: Aug 2024
         responsibilities:
           - Engineered beta and production IaC stacks on Google Cloud using Pulumi and TypeScript, covering load balancers, Cloud Armor, Cloud SQL, GCS buckets, and GKE cluster configurations.
-          - Led migration of legacy manually-deployed workloads to a fully IaC-managed design on GKE, eliminating configuration drift and enabling repeatable deployments.
+          - Migrated legacy, manually-deployed workloads to an IaC-managed setup on GKE, which ended configuration drift and made deployments repeatable.
           - Reduced overall infrastructure costs by 32% through preemptible GKE nodes, Cloud Armor policy restructuring, and log resource rightsizing.
           - Containerized a Node.js application to move from Cloud Functions to GKE, cutting compute costs by approximately 50%.
           - Migrated Pulumi state management from the Pulumi cloud service to a self-hosted backend for tighter governance and cost control.
-          - Led the DevOps team, overseeing daily operations and driving platform stability initiatives.
+          - Led the DevOps team's daily operations and platform stability work.
 
   - company:
       name: Consulting Collective (US)
@@ -93,8 +93,8 @@ experiences:
         start: Jul 2023
         end: Mar 2024
         responsibilities:
-          - Delivered reusable Terraform and Terragrunt blueprints, reducing code repetition and standardizing infrastructure patterns across partner teams.
-          - Built CI/CD pipelines in GitHub Actions and CircleCI accelerating software delivery and deployment cadence.
+          - Delivered reusable Terraform and Terragrunt blueprints that standardized infrastructure patterns across partner teams.
+          - Built CI/CD pipelines in GitHub Actions and CircleCI for partner application and infrastructure delivery.
           - Drove an AWS cost reduction initiative using CUDOS dashboards and a detailed savings roadmap, helping a partner cut overall cloud spend by 50% through RDS consolidation, reserved instance purchases, and backup optimization.
           - Rolled out Datadog observability and alerting, improving incident detection and response for partner environments.
           - Deployed Vanta-driven SOC 2 controls into AWS accounts and implemented EKS clusters with HPA and Karpenter for high-availability workloads.
@@ -108,7 +108,7 @@ experiences:
         end: Feb 2023
         responsibilities:
           - Operated GKE clusters with Helm-based deployments, configuration management, and environment hardening.
-          - Built Grafana dashboards and alert rules for the API and Kubernetes cluster, increasing observability and reducing mean time to resolution.
+          - Built Grafana dashboards and alert rules for the API and Kubernetes cluster, which cut mean time to resolution.
           - Led incident reviews and authored postmortem reports, establishing a structured response process for critical events.
           - Introduced Argo Workflows automation to reduce manual toil for routine operational tasks.
           - Designed and ran load and performance tests to validate API reliability and identify bottlenecks under peak traffic.
@@ -124,7 +124,7 @@ experiences:
           - Architected DigitalOcean environments using Terraform and Terragrunt for all core application workloads.
           - Established the company-wide Information Security Management System (ISMS), authoring security policies and creating a full Security Awareness program with online lectures, marketing materials, and phishing simulations.
           - Automated full environment lifecycle management (create, update, destroy) through GitHub Actions pipelines with Python deployment tooling.
-          - Led both the DevOps and Information Security teams, aligning delivery velocity with compliance and security goals.
+          - Led both the DevOps and Information Security teams, balancing delivery speed against compliance requirements.
 
   - company:
       name: Product Engineering Consultancy (Global)
@@ -136,7 +136,7 @@ experiences:
         responsibilities:
           - Led DevOps workstreams across multiple simultaneous client engagements spanning startups and large public enterprises.
           - Designed AWS architectures using ECS, ECR, RDS, Bastion Host, ALB, CloudFront, and Route 53, fully managed with Terraform and Terraform Cloud.
-          - Built comprehensive CI/CD pipelines covering mobile (iOS, Android), unit tests, e2e tests, and API/app builds using GitHub Actions and CircleCI.
+          - Built CI/CD pipelines covering mobile (iOS, Android), unit and e2e tests, and API/app builds with GitHub Actions and CircleCI.
           - Executed a 5-month AWS lift-and-shift migration combining VMware Cloud and cloud-native services for enterprise financial clients.
           - Migrated a large SVN repository (55,000+ revisions) and self-hosted Git repositories to Bitbucket Cloud with mirroring for zero-disruption transitions.
           - Replatformed a self-hosted GoCD server to AWS, restoring pipelines and automating server provisioning with Vagrant and Python.
@@ -191,7 +191,7 @@ experiences:
         start: Oct 2013
         end: Jan 2016
         responsibilities:
-          - Managed AWS and Azure cloud infrastructure with strong emphasis on security, availability, and PCI-DSS compliance.
+          - Managed AWS and Azure infrastructure with a focus on security, availability, and PCI-DSS compliance.
           - Designed and maintained the certificate environment securing all communication between the company and Brazil's Central Bank.
           - Ensured compliance with Brazil's Central Bank Resolution 4.658 on cybersecurity policy and cloud computing requirements.
           - Led a datacenter migration to a new site with zero downtime, coordinating all infrastructure cutover activities.

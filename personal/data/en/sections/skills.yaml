@@ -9,7 +9,7 @@ section:
 
 skills:
   - name: Kubernetes
-    summary: "Orchestrating containerized workloads at scale, including EKS and GKE clusters with Karpenter autoscaling, KEDA, HPA, ArgoCD GitOps, and Helm. Certified Kubernetes Administrator (CKA) and Application Developer (CKAD)."
+    summary: "Orchestrating containerized workloads at scale, including managed EKS and GKE clusters and self-managed clusters running directly on bare-metal servers, with Karpenter autoscaling, KEDA, HPA, ArgoCD GitOps, and Helm. Certified Kubernetes Administrator (CKA) and Application Developer (CKAD)."
     url: "https://kubernetes.io/"
 
   - name: Terraform
@@ -70,6 +70,13 @@ skills:
   - name: Linux
     summary: "Deep Linux systems administration experience across server management, networking, shell scripting, and security hardening."
     url: "https://www.linux.org/"
+
+  - name: Bare-Metal Infrastructure
+    summary: "Running production workloads on dedicated bare-metal servers (OVH), including self-managed Kubernetes clusters on physical hardware, edge firewall management, SSH certificate-authority access, and full ownership of the stack from hardware through networking without a managed cloud control plane."
+
+  - name: Proxmox
+    summary: "Managing Proxmox VE hypervisors on bare-metal hosts, carving physical servers into VMs and containers to consolidate production workloads on dedicated hardware."
+    url: "https://www.proxmox.com/"
 
   - name: CircleCI
     summary: "Building CI/CD pipelines for mobile (iOS, Android), API, and infrastructure deployments with CircleCI."

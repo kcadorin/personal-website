@@ -9,6 +9,22 @@ section:
 
 experiences:
   - company:
+      name: Healthcare Conversational AI Platform (US)
+      overview: Healthcare chatbot platform running its production stack on self-managed, dedicated bare-metal servers instead of managed cloud.
+    positions:
+      - designation: Senior Infrastructure Engineer
+        start: Feb 2024
+        end: Jan 2025
+        responsibilities:
+          - Operated a fleet of dedicated bare-metal servers on OVH, running the platform's production workloads directly on physical hardware rather than managed cloud instances.
+          - Built and ran a self-managed Kubernetes cluster on those bare-metal servers, with no managed control plane (EKS/GKE), owning the full stack from the physical hosts through networking, cluster operations, and node recovery.
+          - Managed Proxmox VE hypervisors, carving physical hosts into VMs and containers to consolidate multiple workloads onto dedicated servers.
+          - Codified the entire bare-metal fleet in Terraform, including several hundred OVH edge-firewall rules, with encrypted remote state and locking so the infrastructure was reproducible instead of hand-configured.
+          - Wrote a Python tool against the OVH API to discover live IP blocks and firewall rules and reconcile drift back into Terraform-managed state.
+          - Hardened host access with an SSH certificate authority using short-lived certificates and principal matching scoped to a devops group, replacing static SSH keys.
+          - Ran self-hosted GitHub Actions runners on the bare-metal fleet to keep CI/CD close to the hardware.
+
+  - company:
       name: Blockchain Data & Infrastructure Platform (US)
       overview: Web3 infrastructure provider indexing on-chain data across multiple EVM-compatible networks.
     positions:
@@ -37,22 +53,6 @@ experiences:
           - Implemented a disaster recovery architecture in Terraform enabling full service restoration from an AWS outage in under 30 minutes.
           - Hardened multi-account AWS infrastructure with automated SOC 2 guardrails, monitoring, and bastion host access across all accounts.
           - Orchestrated complex data pipelines with Prefect and built scheduled Lambda-based data bridges for automated database schema population.
-
-  - company:
-      name: Healthcare Conversational AI Platform (US)
-      overview: Healthcare chatbot platform running its production stack on self-managed, dedicated bare-metal servers instead of managed cloud.
-    positions:
-      - designation: Senior Infrastructure Engineer
-        start: Feb 2024
-        end: Jan 2025
-        responsibilities:
-          - Operated a fleet of dedicated bare-metal servers on OVH, running the platform's production workloads directly on physical hardware rather than managed cloud instances.
-          - Built and ran a self-managed Kubernetes cluster on those bare-metal servers, with no managed control plane (EKS/GKE), owning the full stack from the physical hosts through networking, cluster operations, and node recovery.
-          - Managed Proxmox VE hypervisors, carving physical hosts into VMs and containers to consolidate multiple workloads onto dedicated servers.
-          - Codified the entire bare-metal fleet in Terraform, including several hundred OVH edge-firewall rules, with encrypted remote state and locking so the infrastructure was reproducible instead of hand-configured.
-          - Wrote a Python tool against the OVH API to discover live IP blocks and firewall rules and reconcile drift back into Terraform-managed state.
-          - Hardened host access with an SSH certificate authority using short-lived certificates and principal matching scoped to a devops group, replacing static SSH keys.
-          - Ran self-hosted GitHub Actions runners on the bare-metal fleet to keep CI/CD close to the hardware.
 
   - company:
       name: Digital Commerce Platform (Canada)

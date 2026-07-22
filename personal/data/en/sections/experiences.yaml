@@ -40,6 +40,21 @@ experiences:
           - Managed secrets, IAM, and Kubernetes security using External Secrets Operator, AWS ACK Pod Identity, and SOPS with KMS for secure and auditable access controls.
 
   - company:
+      name: Open-Source Intelligence (OSINT) Platform (EU)
+      overview: Open-source intelligence provider delivering digital identity, fraud, and threat intelligence to government, law enforcement, and private investigation teams, running entirely on GCP.
+    positions:
+      - designation: Senior Site Reliability Engineer (Consulting)
+        start: Jan 2025
+        responsibilities:
+          - Owned the full GCP platform (Cloud Run and GKE) as code with Pulumi and Python across dev, staging, and production, spanning VPC networking, Cloud NAT, internal load balancers, IAM, and Secret Manager.
+          - Led a major cloud cost reduction, migrating latency-tolerant workloads from GKE to second-generation Cloud Run and centralizing the Datadog Agent onto a shared node-level DaemonSet behind an internal load balancer, removing per-service sidecars and cutting observability spend by roughly 2.5-2.9k USD per month.
+          - Operated production Python microservices including a public intelligence API, an asynchronous live-query framework with dynamic module loading and concurrent worker pools, a stealth browser-automation service (headed Chromium under Xvfb with spoofed fingerprints) exposed over JSON and MCP, and a CAPTCHA-solving service.
+          - Ran MongoDB Atlas in production, diagnosing and resolving a multi-day silent egress outage caused by a VPC egress change against IP-allowlisted clusters, then moved connectivity toward Private Service Connect endpoints and tuned connection pooling to clear saturation errors.
+          - Handled GKE platform operations with ArgoCD GitOps and Helm, including a production MongoDB replica-set incident from a TLS/CA rotation, adding monitors and guardrails to prevent recurrence.
+          - Managed secrets and access with Infisical and External Secrets Operator, project-level IAM on Secret Manager, Workload Identity Federation for GitHub Actions CI, and Tailscale plus IAP for break-glass access.
+          - Improved Datadog (EU) observability by fixing no-data monitors, defining latency SLO ladders for slow bulk queries, and controlling custom-metric cardinality through a DogStatsD relay.
+
+  - company:
       name: Healthcare Technology Platform (US)
       overview: Digital health provider delivering secure care coordination and analytics solutions.
     positions:

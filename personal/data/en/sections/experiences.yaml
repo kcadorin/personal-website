@@ -10,7 +10,7 @@ section:
 experiences:
   - company:
       name: Healthcare Conversational AI Platform (US)
-      overview: Healthcare chatbot platform running its production stack on self-managed, dedicated bare-metal servers instead of managed cloud.
+      overview: Healthcare chatbot platform running its production stack across self-managed, dedicated bare-metal servers and managed AWS and Azure cloud services.
     positions:
       - designation: Senior Infrastructure Engineer
         start: Feb 2024
@@ -18,6 +18,7 @@ experiences:
         responsibilities:
           - Operated a fleet of dedicated bare-metal servers on OVH, running the platform's production workloads directly on physical hardware rather than managed cloud instances.
           - Built and ran a self-managed Kubernetes cluster on those bare-metal servers, with no managed control plane (EKS/GKE), owning the full stack from the physical hosts through networking, cluster operations, and node recovery.
+          - Ran a multi-cloud footprint alongside the bare metal, using Terraform to provision AWS (EKS, WorkSpaces) and Azure (Service Bus, OpenAI) resources for the platform.
           - Managed Proxmox VE hypervisors, carving physical hosts into VMs and containers to consolidate multiple workloads onto dedicated servers.
           - Codified the entire bare-metal fleet in Terraform, including several hundred OVH edge-firewall rules, with encrypted remote state and locking so the infrastructure was reproducible instead of hand-configured.
           - Wrote a Python tool against the OVH API to discover live IP blocks and firewall rules and reconcile drift back into Terraform-managed state.

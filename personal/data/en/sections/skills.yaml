@@ -36,7 +36,7 @@ skills:
     url: "https://www.pulumi.com/"
 
   - name: Observability
-    summary: "Building full observability stacks with Prometheus, Grafana, Loki, Promtail, and Datadog for metrics, logs, and alerting across Kubernetes and cloud environments."
+    summary: "Building full observability stacks with Prometheus, Grafana, Loki, Promtail, and Datadog for metrics, logs, and alerting across Kubernetes and cloud environments, including Datadog cost and custom-metric cardinality control via DogStatsD relays."
     url: "https://grafana.com/"
 
   - name: Argo CD
@@ -52,8 +52,25 @@ skills:
     url: "https://www.ansible.com/"
 
   - name: GCP
-    summary: "Extensive experience with GKE, Cloud Armor, Cloud SQL, BigQuery, Airflow, GCS, IAM, and site reliability engineering for production workloads."
+    summary: "Extensive experience with GKE, Cloud Run, Cloud Armor, Cloud SQL, BigQuery, Airflow, GCS, Cloud NAT, IAM, Workload Identity Federation, and site reliability engineering for production workloads."
     url: "https://cloud.google.com/"
+
+  - name: Cloud Run / Serverless
+    summary: "Migrating containerized workloads from GKE to second-generation Cloud Run with internal load balancers, VPC egress, Cloud NAT, and IAM-authenticated internal services for lower cost and operational overhead."
+    url: "https://cloud.google.com/run"
+
+  - name: MongoDB Atlas
+    summary: "Operating MongoDB Atlas in production, including replica-set health, TLS/CA rotation, IP allowlists and Private Service Connect endpoints, and connection-pool tuning to resolve egress and saturation incidents."
+    url: "https://www.mongodb.com/atlas"
+
+  - name: Cloud Cost Optimization (FinOps)
+    summary: "Driving large cloud cost reductions across AWS and GCP through workload right-sizing, spot and preemptible nodes, serverless migration, observability-agent centralization, and detailed cost-analysis tooling."
+
+  - name: Secrets Management
+    summary: "Managing secrets across environments with Infisical, External Secrets Operator, SOPS with KMS, and Secret Manager, including project-level IAM and Workload Identity Federation for CI pipelines."
+
+  - name: Browser Automation & Anti-Bot
+    summary: "Building stealth browser-automation services (headed Chromium under Xvfb with spoofed fingerprints) driven over JSON APIs and MCP for reliable data gathering against modern anti-bot stacks."
 
   - name: AI / LLM Tooling
     summary: "Building MCP (Model Context Protocol) servers, Claude Code plugins, and LangGraph-based AI agents to extend developer tooling and automate workflows."

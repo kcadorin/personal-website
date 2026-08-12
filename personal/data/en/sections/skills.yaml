@@ -8,6 +8,18 @@ section:
   # hideTitle: true
 
 skills:
+  - name: Agentic Coding
+    summary: "Heavy, hands-on user of AI agentic coding (Claude Code), focused on getting the most out of it: directing AI agents on implementation, debugging, and operations while owning architecture and review. Author of custom skills, slash commands, and subagents that encode real operational runbooks (SOC 2 evidence, Datadog cost debugging, GKE/Pulumi/ArgoCD ops, RDS IAM migrations, automated code review) so agents skip discovery and go straight to the point."
+    url: "https://www.anthropic.com/claude-code"
+
+  - name: MCP & AI Agents
+    summary: "Designing and shipping production MCP (Model Context Protocol) servers and autonomous AI agents (LangGraph/LangChain) as microservices with streaming APIs and tool access over MCP/SSE — including an 18-tool blockchain data server with dynamic GraphQL-introspection tool generation and pay-per-query monetization."
+    url: "https://modelcontextprotocol.io/"
+
+  - name: AI Knowledge Systems
+    summary: "Running a persistent AI engineering memory on Obsidian (PARA compound-engineering vault, on the open-source claude-obsidian plugin) so AI sessions have instant recall of past tasks and projects — an ingest → lint → query pipeline with hybrid contextual retrieval (BM25 + rerank) for fast, precise context."
+    url: "https://www.anthropic.com/"
+
   - name: Kubernetes
     summary: "Orchestrating containerized workloads at scale, including managed EKS and GKE clusters and self-managed clusters running directly on bare-metal servers, with Karpenter autoscaling, KEDA, HPA, ArgoCD GitOps, and Helm. Certified Kubernetes Administrator (CKA) and Application Developer (CKAD)."
     url: "https://kubernetes.io/"
@@ -71,10 +83,6 @@ skills:
 
   - name: Browser Automation & Anti-Bot
     summary: "Building stealth browser-automation services (headed Chromium under Xvfb with spoofed fingerprints) driven over JSON APIs and MCP for reliable data gathering against modern anti-bot stacks."
-
-  - name: AI / LLM Tooling
-    summary: "Building MCP (Model Context Protocol) servers, Claude Code plugins, and LangGraph-based AI agents to extend developer tooling and automate workflows."
-    url: "https://www.anthropic.com/"
 
   - name: Helm
     summary: "Managing Kubernetes application deployments and configuration with Helm charts across multiple environments."

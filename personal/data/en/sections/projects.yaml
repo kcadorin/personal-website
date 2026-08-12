@@ -1,7 +1,7 @@
 section:
   name: Projects
   id: projects
-  enable: false
+  enable: true
   weight: 6
   showOnNavbar: true
   # Can optionally hide the title in sections
@@ -10,50 +10,44 @@ section:
 buttons:
   - name: All
     filter: "all"
-  - name: Professional
-    filter: "professional"
-  - name: Academic
-    filter: "academic"
-  - name: Hobby
-    filter: "hobby"
+  - name: AI & Agents
+    filter: "ai"
+  - name: Infrastructure
+    filter: "devops"
+  - name: Web
+    filter: "web"
 
 projects:
   - name: OneSource MCP Server
-    logo: /images/sections/projects/kubernetes.png
+    logo: "fas fa-robot"
     role: Owner
     timeline: "Jun 2025 - Present"
-    repo: https://github.com/kcadorin/onesource-mcp
-    summary: Model Context Protocol server for blockchain portfolio analysis and wallet management.
-    tags: ["web3", "typescript", "blockchain", "mcp", "ai"]
+    summary: |
+      Production **MCP (Model Context Protocol) server** exposing on-chain blockchain data as tools to AI agents. Auto-generates its tool surface from the backend GraphQL schema via introspection, and integrates x402 pay-per-query pricing so blockchain data is programmatically queryable by AI. *(Private repository.)*
+    tags: ["ai", "mcp", "web3", "blockchain", "typescript"]
+
+  - name: AI Engineering Memory System
+    logo: "fas fa-brain"
+    role: Owner
+    timeline: "Jul 2026 - Present"
+    summary: |
+      A persistent **AI engineering memory** built on Obsidian (PARA "compound engineering" vault) so every AI coding session has instant recall of past tasks and projects — no re-explaining context. Ingest → lint → query pipeline with hybrid contextual retrieval (BM25 + rerank), driven by custom Claude Code skills, subagents, and hooks. *(Private repository.)*
+    tags: ["ai", "agentic", "claude-code", "knowledge"]
+
+  - name: AWS Pricing Calculator
+    logo: "fas fa-calculator"
+    role: Owner
+    timeline: "2025"
+    repo: https://github.com/kcadorin/aws-pricing-calculator
+    summary: |
+      A Python tool that improves on the standard AWS pricing calculator by comparing the *additional* cost of a change against an account's existing spend — turning "what will this cost" into "what will this add".
+    tags: ["devops", "aws", "python", "finops"]
 
   - name: Personal Portfolio Website
-    logo: /images/sections/projects/toha.png
+    logo: "fas fa-globe"
     role: Owner
     timeline: "Sep 2025 - Present"
     repo: https://github.com/kcadorin/personal-website
-    summary: A modern, responsive personal portfolio website built with Hugo and the Toha theme.
-    tags: ["hobby", "hugo", "web"]
-
-  - name: E-Commerce Platform
-    logo: /images/sections/projects/react.png
-    role: Lead Developer
-    timeline: "Jan 2023 - Dec 2023"
-    repo: https://github.com/kcadorin/ecommerce-platform
-    summary: Full-stack e-commerce platform built with React, Node.js, and PostgreSQL.
-    tags: ["professional", "react", "nodejs"]
-
-  - name: Machine Learning Project
-    logo: /images/sections/projects/tensorflow.png
-    role: Researcher
-    timeline: "Sep 2022 - May 2023"
-    repo: https://github.com/kcadorin/ml-research
-    summary: Research project on predictive analytics using machine learning algorithms.
-    tags: ["academic", "python", "machine-learning"]
-
-  - name: Task Management App
-    logo: /images/sections/projects/javascript.png
-    role: Developer
-    timeline: "Mar 2022 - Aug 2022"
-    repo: https://github.com/kcadorin/task-manager
-    summary: A collaborative task management application with real-time updates.
-    tags: ["hobby", "javascript", "websocket"]
+    summary: |
+      This site — a modern, responsive portfolio built with Hugo and the Toha theme, deployed on a custom domain.
+    tags: ["web", "hugo"]

@@ -52,7 +52,7 @@ experiences:
           - Built EKS cluster operations using ArgoCD for GitOps deployments, Karpenter for node autoscaling (spot and on-demand), and a full observability stack with Prometheus, Grafana, Loki, and Promtail.
           - Contributed to a Go-based blockchain data indexing pipeline ingesting blocks, transactions, events, NFTs, balances, and smart contracts into OpenSearch, exposed via a GraphQL API.
           - Developed Claude Code plugins and MCP servers to extend AI tooling for the team, including a blockchain data query tool and an AI agent (LangGraph) for natural language blockchain data queries.
-          - Cut monthly cloud spend with EKS cost optimization: spot instances, Karpenter node pools, an automated EBS cleanup tool, and a Python cost-analysis script.
+          - "Cut monthly cloud spend with EKS cost optimization: spot instances, Karpenter node pools, an automated EBS cleanup tool, and a Python cost-analysis script."
           - Managed secrets, IAM, and Kubernetes security using External Secrets Operator, AWS ACK Pod Identity, and SOPS with KMS for secure and auditable access controls.
 
   - company:
